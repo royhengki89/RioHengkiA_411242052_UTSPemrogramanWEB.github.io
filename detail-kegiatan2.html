@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rio">
+    <title>PPDB | Penerimaan Peserta Didik Baru - SMA Nusantara</title>
+
+    <!-- Menghubungkan file CSS utama dan css detail1-->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style-detail1.css">
+</head>
+<body>
+
+    <!-- Header & Navigasi -->
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>SMA NUSANTARA</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#kegiatan">Kegiatan</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Akademik</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Bagian Konten Detail (Layout 2 Kolom: Artikel & Sidebar) -->
+    <section class="detail-section">
+        <div class="container detail-wrapper">
+            
+            <!-- Kolom Kiri: Judul, Gambar Utama, & Artikel Lengkap -->
+            <div class="detail-main">
+                <span class="badge-kategori">Pengumuman UAS</span>
+                <h1>Jadwal Ujian Akhir Semester (UAS) Berbasis Komputer</h1>
+                
+                <div class="detail-meta-info">
+                    <span>📅 Rabu, 20 Desember 2025</span>
+                    <span>📍 Yogyakarta</span>
+                </div>
+
+                <!-- Gambar Utama Kegiatan -->
+                <div class="detail-img-box">
+                    <img src="./img/kegiatan2.jpeg" alt="PPDB SMA Nusantara">
+                </div>
+
+                <!-- Paragraf Penjelasan Lengkap -->
+                <div class="detail-article">
+                    <p><strong>YOGYAKARTA</strong> — Panitia Jadwal Ujian Akhir Semester (UAS) Berbasis Komputer secara resmi membuka pendaftaran calan siswa baru untuk Tahun Ajaran 2026/2027 melalui jalur akademik, prestasi, dan zonasi.</p>
+                    
+                    <p>Sistem pendaftaran berbasis online terpadu ini dirancang untuk memudahkan para calon siswa dan orang tua dalam mengunggah dokumen persyaratan, memantau hasil seleksi, hingga proses daftar ulang tanpa perlu mengantre.</p>
+
+                    <h3>Detail Pendaftaran & Syarat Berkas:</h3>
+                    <ul>
+                        <li><strong>Jalur Pendaftaran:</strong> Prestasi Akademik/Non-Akademik, Zonasi, dan Afirmasi.</li>
+                        <li><strong>Dokumen Persyaratan:</strong> Fotokopi Ijazah/SKL, Kartu Keluarga, dan Pasfoto terbaru.</li>
+                        <li><strong>Jadwal Seleksi:</strong> 15 Oktober – 20 November 2025 (Gelombang 1).</li>
+                    </ul>
+
+                    <p>Dengan fasilitas laboratorium modern, tenaga pendidik profesional, serta beragam ekstrakurikuler unggulan, SMA Nusantara siap mencetak generasi berprestasi dan berwawasan global.</p>
+
+                    <!-- Form Pendaftaran / Kontak (Integrasi Tugas Modul 4) -->
+                    <div class="form-section">
+                        <h3 id="judul-detail">Formulir Pertanyaan &amp; Pengumuman UAS</h3>
+                        <form action="#" method="POST">
+                            <p>
+                                <label for="nama">Nama Lengkap Calon Siswa:</label><br>
+                                <input type="text" id="nama" name="nama" class="kotak-input" placeholder="Masukkan nama lengkap" required>
+                            </p>
+                            <p>
+                                <label for="email">Alamat Email / WhatsApp:</label><br>
+                                <input type="text" id="email" name="email" class="kotak-input" placeholder="Nomor WhatsApp aktif" required>
+                            </p>
+                            <p>
+                                <label for="pesan">Pertanyaan / Pesan:</label><br>
+                                <textarea id="pesan" name="pesan" class="kotak-input" rows="4" placeholder="Tuliskan pertanyaan seputar PPDB..." required></textarea>
+                            </p>
+                            <p>
+                                <button type="submit" class="tombol-submit">Kirim Pertanyaan</button>
+                            </p>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Kolom Kanan: Sidebar Informasi Kegiatan -->
+            <div class="detail-sidebar">
+                <div class="sidebar-card">
+                    <h3>Pengumuman UAS</h3>
+                    <div class="status-badge">✔ Pendaftaran Dibuka</div>
+                    
+                    <ul class="sidebar-info-list">
+                        <li>
+                            <strong>Periode Pendaftaran</strong>
+                            <span>15 Oktober – 20 November 2025</span>
+                        </li>
+                        <li>
+                            <strong>Lokasi Kampus</strong>
+                            <span>Yogyakarta / Kampus SMA Nusantara</span>
+                        </li>
+                        <li>
+                            <strong>Kategori</strong>
+                            <span>Akademik / Penerimaan Siswa</span>
+                        </li>
+                        <li>
+                            <strong>Panitia PPDB</strong>
+                            <span>Tim Humas SMA Nusantara</span>
+                        </li>
+                    </ul>
+
+                    <a href="https://wa.me/6282122332466?text=Halo%20Panitia%20PPDB%20SMA%20Nusantara,%20saya%20ingin%20konsultasi%20pendaftaran" class="btn-sidebar-wa" target="_blank">
+                        💬 Tanya Panitia PPDB
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3>SMA NUSANTARA</h3>
+                <p>Pusat pendidikan menengah terpadu yang berkarakter, inovatif, dan unggul di bidang akademik.</p>
+            </div>
+            <div class="footer-col">
+                <h3>LAYANAN AKADEMIK</h3>
+                <p>Portal E-Learning, Pendaftaran PPDB, Kurikulum Merdeka, dan Perpustakaan Digital.</p>
+            </div>
+            <div class="footer-col">
+                <h3>KESISWAAN</h3>
+                <p>Organisasi OSIS, Ekstrakurikuler, Program Beasiswa, dan Konseling Pendidikan.</p>
+            </div>
+            <div class="footer-col">
+                <h3>ALAMAT SEKOLAH</h3>
+                <p>Yogyakarta<br>WhatsApp: 0821-2233-2466</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>2026 SMA Nusantara. All rights reserved | @411242052 - Rio Hengki.A</p>
+        </div>
+    </footer>
+
+</body>
+</html>
